@@ -12,7 +12,9 @@ tip = int(input("How much would you like to tip? (12%, 20%, or 25%) "))
 people_share = int(input(
     "Among how many people would you like to split the bill with? "))
 
-total = (bill_amount / people_share *
+calculation = (bill_amount / people_share *
          (tip / 100)) + (bill_amount / people_share)
 
-print("{:.2f}".format(total))
+total = "{:.2f}".format(calculation)
+
+print(f"Each person should pay the following amount: ${total}")
