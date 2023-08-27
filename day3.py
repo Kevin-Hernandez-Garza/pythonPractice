@@ -56,25 +56,25 @@
 
 
 # Program calculates a couples love compatibility
-print("Welcome to the Love Calculator!")
-name1 = input("What is your name? \n")
-name2 = input("What is their name? \n")
+# print("Welcome to the Love Calculator!")
+# name1 = input("What is your name? \n")
+# name2 = input("What is their name? \n")
 
-combined_names = name1 + " " + name2
-lower_combined_names = combined_names.lower()
+# combined_names = name1 + " " + name2
+# lower_combined_names = combined_names.lower()
 
-true_num = lower_combined_names.count('t') + lower_combined_names.count(
-    'r') + lower_combined_names.count('u') + lower_combined_names.count('e')
+# true_num = lower_combined_names.count('t') + lower_combined_names.count(
+#     'r') + lower_combined_names.count('u') + lower_combined_names.count('e')
 
-love_num = lower_combined_names.count('l') + lower_combined_names.count(
-    'o') + lower_combined_names.count('v') + lower_combined_names.count('e')
+# love_num = lower_combined_names.count('l') + lower_combined_names.count(
+#     'o') + lower_combined_names.count('v') + lower_combined_names.count('e')
 
-love_comp = str(true_num) + str(love_num)
-int_con = int(love_comp)
+# love_comp = str(true_num) + str(love_num)
+# int_con = int(love_comp)
 
-if int_con < 10 or int_con > 90:
-    print(f"Your score is {int_con}, you go together like coke and mentos.")
-elif int_con >= 40 and int_con <= 50:
-    print(f"Your score is {int_con}, you are alright together.")
-else:
-    print(f"Your score is {int_con}.")
+# if int_con < 10 or int_con > 90:
+#     print(f"Your score is {int_con}, you go together like coke and mentos.")
+# elif int_con >= 40 and int_con <= 50:
+#     print(f"Your score is {int_con}, you are alright together.")
+# else:
+#     print(f"Your score is {int_con}.")
