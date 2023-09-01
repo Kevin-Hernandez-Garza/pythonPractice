@@ -4,8 +4,6 @@
 
 # This total amount is the printed out on the console
 # which calculates the amount owed by each individual.
-
-import random
 bill_amount = float(input("How much is the bill? "))
 
 tip = int(input("How much would you like to tip? (12%, 20%, or 25%) "))
@@ -19,12 +17,3 @@ calculation = (bill_amount / people_share *
 total = "{:.2f}".format(calculation)
 
 print(f"Each person should pay the following amount: ${total}")
-
-
-# a heads or tails games, importing the random module
-
-coin_toss = random.randint(0, 1)
-if coin_toss == 1:
-    print('Heads')
-else:
-    print('Tails')
