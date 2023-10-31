@@ -1,5 +1,5 @@
 # importing the random module
-import random
+# import random
 
 # # random number from 1-10
 # random_int = random.randint(1, 10)
@@ -11,8 +11,8 @@ import random
 # print(random_float)
 
 # random number number between 0.0-5.0
-random_float = random.random() * 5
-print(random_float)
+# random_float = random.random() * 5
+# print(random_float)
 
 # a heads or tails games, importing the random module
 # import random
@@ -27,7 +27,7 @@ print(random_float)
 # Import the random module here
 # import random
 # # Split string method
-# names_string = input("Give me everybody's names, separated by a comma. ")
+# names_string = input("Give me everybody's names, separated by a comma: ")
 # names = names_string.split(", ")
 
 # # storing the length of the list
@@ -38,3 +38,12 @@ print(random_float)
 
 # # printing out the index that was randomly chosen
 # print(f'{names[choice]} is going to buy the meal today!')
+
+
+# nested list
+fruits = ["Strawberries", "Nectarines", "Apples",
+          "Grapes", "Peaches", "Cherries", "Pears"]
+vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
+dirty_dozen = [fruits, vegetables]
+
+print(dirty_dozen)
